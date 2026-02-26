@@ -1,0 +1,1216 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "title": "Palm Jumeirah Luxury Villa",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 12,500,000",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "area": "6500 sqft",
+      "location": "Palm Jumeirah, Dubai",
+      "image": "/assets/Explore/L19.webp",
+      "description": "Ultra-luxury sea-facing villa with private pool and smart interiors.",
+       "slides": [
+      {
+        "num":"01",
+        "type": "imageText",
+        "title": "Palm Jumeirah Luxury Villa",
+        "price": "12,500,000AED",
+         "image": "/assets/Explore/L19.webp",
+        "square": "3040m",
+        "room":"5",
+        "booking":"50%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L19.webp",
+        "title": "Palm Jumeirah Luxury Villa",
+        "desc":"Designed for contemporary living, this residence blends elegance with practicality. The layout maximizes usable space and smooth movement between rooms. Natural light enhances the warmth of the interiors. Living areas are perfect for family time and gatherings. Bedrooms are well-proportioned and peaceful. High-quality finishes elevate the overall appeal. ",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties"
+        
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L19.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 2,
+      "title": "Downtown Burj View Apartment",
+      "type": "Apartment",
+      "purpose": "Rent",
+      "price": "AED 320,000",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area": "2200 sqft",
+      "location": "Downtown Dubai",
+      "image": "/assets/Explore/L2.webp",
+      "description": "Fully furnished apartment with Burj Khalifa view.",
+      "slides": [
+      {
+        "num":"02",
+        "type": "imageText",
+        "title": "Downtown Burj View Apartment",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L2.webp",
+        "square": "3040m",
+        "room":"3",
+        "booking":"30%",
+        "date":"09.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L2.webp",
+        "title": "Downtown Burj View Apartment",
+        "desc":"Designed for contemporary living, this residence blends elegance with practicality. The layout maximizes usable space and smooth movement between rooms. Natural light enhances the warmth of the interiors. Living areas are perfect for family time and gatherings. Bedrooms are well-proportioned and peaceful. High-quality finishes elevate the overall appeal.",
+        "location": "Downtown Dubai",
+        "developer":"Ellington Properties"
+      },
+      {
+        "type": "image",
+        "image":"/assets/Explore/L2.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 3,
+      "title": "Emirates Hills Mansion",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 35,000,000",
+      "bedrooms": 7,
+      "bathrooms": 8,
+      "area": "12000 sqft",
+      "location": "Palm Jumeirah",
+      "image": "/assets/Explore/L13.jpg",
+      "description": "Premium golf-course facing mansion with private elevator.",
+      "slides": [
+      {
+        "num":"03",
+        "type": "imageText",
+        "title": "Emirates Hills Mansion",
+        "price": "6 578884744 AED",
+         "image":"/assets/Explore/L13.jpg",
+        "square": "3040m",
+        "room":"7",
+        "booking":"20%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L13.jpg",
+        "title": "Emirates Hills Mansion",
+        "location": "Palm Jumeirah",
+        "developer":"Luxline Properties",
+        "desc":"This modern home features clean lines and a functional layout. Spacious interiors create a welcoming and open environment. Large windows bring in fresh air and daylight. The living area is designed for everyday comfort and relaxation. Bedrooms are private and thoughtfully arranged. Finishes are stylish and easy to maintain. The property is set within a well-connected location. A smart choice for long-term living."
+        
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L13.jpg"
+        
+      }
+    ]
+    },
+    {
+      "id": 4,
+      "title": "Dubai Marina Waterfront Apartment",
+      "type": "Apartment",
+      "purpose": "Rent",
+      "price": "AED 210,000",
+      "bedrooms": 5,
+      "bathrooms": 3,
+      "area": "1600 sqft",
+      "location": "Dubai Marina",
+      "image": "/assets/Explore/B2.avif",
+      "description": "Modern waterfront living with marina skyline views.",
+      "slides": [
+      {
+        "num":"04",
+        "type": "imageText",
+        "title": "Dubai Marina Waterfront Apartment",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/B2.avif",
+        "square": "3040m",
+        "room":"5",
+        "booking":"60%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/B2.avif",
+        "title": "Dubai Marina Waterfront Apartment",
+        "desc":"Offering a balance of comfort and style, this property suits modern lifestyles. The interiors are carefully designed for space efficiency. Bright rooms create a fresh and inviting feel. Living and dining areas flow seamlessly together. Bedrooms ensure privacy and personal comfort. Quality fittings add value and durability. ",
+        "location": "Dubai Marina",
+        "developer":"Ellington Properties"
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/B2.avif"
+        
+      }
+    ]
+    },
+    {
+      "id": 5,
+      "title": "Bluewaters Island Penthouse",
+      "type": "Penthouse",
+      "purpose": "Buy",
+      "price": "AED 18,900,000",
+      "bedrooms": 8,
+      "bathrooms": 5,
+      "area": "4800 sqft",
+      "location": "Business Bay",
+      "image": "/assets/Explore/L4.webp",
+      "description": "Luxury penthouse with Ain Dubai views and private terrace.",
+      "slides": [
+      {
+        "num":"05",
+        "type": "imageText",
+        "title": "Bluewaters Island Penthouse",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L4.webp",
+        "square": "3040m",
+        "room":"8",
+        "booking":"10%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L4.webp",
+        "title": "Bluewaters Island Penthouse",
+        "location": "Business Bay",
+        "developer":"Luxline Properties",
+        "desc":"This elegant residence is crafted for a comfortable urban lifestyle. The layout supports both functionality and visual appeal. Ample natural light enhances the interiors. Living spaces are open and easy to furnish. Bedrooms offer a quiet retreat from daily routines. Finishing quality reflects attention to detail. Outdoor views add to the overall charm. A reliable option for investment or self-use."
+     
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L4.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 6,
+      "title": "Business Bay Canal View Apartment",
+      "type": "Apartment",
+      "purpose": "Sell",
+      "price": "AED 1,950,000",
+      "bedrooms": 5,
+      "bathrooms": 2,
+      "area": "950 sqft",
+      "location": "Business Bay",
+      "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+      "description": "High ROI investment apartment with canal views.",
+      "slides": [
+      {
+        "num":"06",
+        "type": "imageText",
+        "title": "Business Bay Canal View Apartment",
+        "price": "6 578884744 AED",
+         "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+        "square": "3040m",
+        "room":"5",
+        "booking":"30%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c",
+        "title": "Business Bay Canal View Apartment",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Ellington Properties",
+        "desc":"A thoughtfully planned property designed for modern living standards. The interiors feel spacious and well-balanced. Natural lighting improves the overall ambiance. Living areas are ideal for daily use and social gatherings. Bedrooms provide a sense of privacy and relaxation. Materials used are durable and stylish."
+       
+      },
+      {
+        "type": "image",
+        "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20c"
+        
+      }
+    ]
+    },
+    {
+      "id": 7,
+      "title": "Jumeirah Golf Estates Villa",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 9,800,000",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "area": "7200 sqft",
+      "location": "Jumeirah Golf Estates Villa",
+      "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+      "description": "Golf-facing villa with landscaped garden.",
+      "slides": [
+      {
+        "num":"07",
+        "type": "imageText",
+        "title": "Jumeirah Golf Estates Villa",
+        "price": "6 578884744 AED",
+         "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "square": "3040m",
+        "room":"5",
+        "booking":"20%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d",
+        "title": "Jumeirah Golf Estates Villa",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties",
+        "desc":"This contemporary home combines smart design with everyday comfort. The layout allows efficient use of space across all rooms. Large windows enhance brightness and openness. Living areas support both leisure and functionality. Bedrooms are well-sized and peaceful. Finishes are modern and low maintenance. The surrounding area offers essential amenities nearby. A strong choice for quality living."
+        
+      },
+      {
+        "type": "image",
+        "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d"
+        
+      }
+    ]
+    },
+    {
+      "id": 8,
+      "title": "City Walk Luxury Residence",
+      "type": "Apartment",
+      "purpose": "Rent",
+      "price": "AED 180,000",
+      "bedrooms": 7,
+      "bathrooms": 3,
+      "area": "1400 sqft",
+      "location": "Dubai Marina",
+      "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+      "description": "Urban luxury living near lifestyle destinations.",
+      "slides": [
+      {
+        "num":"08",
+        "type": "imageText",
+        "title": "City Walk Luxury Residence",
+        "price": "6 578884744 AED",
+         "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "square": "3040m",
+        "room":"7",
+        "booking":"20%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+        "title":"City Walk Luxury Residence",
+        "location": "Dubai Marina",
+        "developer":"Dubai Properties",
+        "desc":"Built with attention to detail, this property offers a refined living experience. Spacious interiors create a sense of openness. Natural light flows through well-placed windows. Living and dining areas are practical and welcoming. Bedrooms ensure comfort and privacy. Premium finishes enhance visual appeal. The property is located in a desirable neighborhood. Suitable for families and investors."
+        
+      },
+      {
+        "type": "image",
+        "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+        
+      }
+    ]
+    },
+    {
+      "id": 9,
+      "title": "The World Islands Private Villa",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 45,000,000",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "area": "9000 sqft",
+      "location": "The World Islands",
+      "image": "/assets/Explore/B3.jpg",
+      "description": "Exclusive island villa with private beach access.",
+      "slides": [
+      {
+        "num":"09",
+        "type": "imageText",
+        "title":  "The World Islands Private Villa",
+        "price": "6 578884744 AED",
+         "image":"/assets/Explore/B3.jpg",
+        "square": "3040m",
+        "room":"6",
+        "booking":"40%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/B3.jpg",
+        "title":  "The World Islands Private Villa",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties",
+        "desc":"This well-designed residence supports a balanced lifestyle. The layout emphasizes comfort and usability. Bright interiors create a positive living environment. Living spaces are ideal for relaxation and hosting guests. Bedrooms are quiet and thoughtfully positioned. Quality finishes add durability and elegance. The location provides strong connectivity. A valuable long-term asset."
+        
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/B3.jpg"
+        
+      }
+    ]
+    },
+    {
+      "id": 10,
+      "title": "Meydan Modern Townhouse",
+      "type": "Townhouse",
+      "purpose": "Sell",
+      "price": "AED 3,600,000",
+      "bedrooms": 4,
+      "bathrooms": 5,
+      "area": "3100 sqft",
+      "location": "Palm Jumeirah",
+      "image": "/assets/Explore/L9.webp",
+      "description": "Family-friendly townhouse near Meydan racecourse.",
+      "slides": [
+      {
+        "num":"10",
+        "type": "imageText",
+        "title": "Meydan Modern Townhouse",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L9.webp",
+        "square": "3040m",
+        "room":"4",
+        "booking":"30%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L9.webp",
+        "title": "Meydan Modern Townhouse",
+        "location": "Palm Jumeirah",
+        "developer":"Luxline Properties",
+        "desc":"Offering a balance of comfort and style, this property suits modern lifestyles. The interiors are carefully designed for space efficiency. Bright rooms create a fresh and inviting feel. Living and dining areas flow seamlessly together. Bedrooms ensure privacy and personal comfort. Quality fittings add value and durability. The surrounding community enhances daily convenience. Suitable for families and professionals alike."
+       
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L9.webp"
+        
+      }
+    ]
+    },
+
+    {
+      "id": 11,
+      "title": "Dubai Hills Park View Villa",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 7,200,000",
+      "bedrooms": 8,
+      "bathrooms": 5,
+      "area": "5000 sqft",
+      "location": "Dubai Marina",
+      "image": "/assets/Explore/L10.webp",
+      "description": "Park-facing villa in a master-planned community.",
+      "slides": [
+      {
+        "num":"11",
+        "type": "imageText",
+        "title":  "Dubai Hills Park View Villa",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L10.webp",
+        "square": "3040m",
+        "room":"8",
+        "booking":"50%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L10.webp",
+        "title":  "Dubai Hills Park View Villa",
+        "location": "Dubai Marina",
+        "developer":"Luxline Properties",
+        "desc":"This elegant residence is crafted for a comfortable urban lifestyle. The layout supports both functionality and visual appeal. Ample natural light enhances the interiors. Living spaces are open and easy to furnish. Bedrooms offer a quiet retreat from daily routines. Finishing quality reflects attention to detail. Outdoor views add to the overall charm. A reliable option for investment or self-use."
+       
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L10.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 12,
+      "title": "La Mer Sea View Apartment",
+      "type": "Apartment",
+      "purpose": "Rent",
+      "price": "AED 165,000",
+      "bedrooms": 4,
+      "bathrooms": 2,
+      "area": "1350 sqft",
+      "location": "Palm Jumeirah",
+      "image": "/assets/Explore/L23.webp",
+      "description": "Beachfront lifestyle apartment with sea views.",
+      "slides": [
+      {
+        "num":"12",
+        "type": "imageText",
+        "title": "La Mer Sea View Apartment",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L23.webp",
+        "square": "3040m",
+        "room":"4",
+        "booking":"40%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L23.webp",
+        "title": "La Mer Sea View Apartment",
+        "location": "Palm Jumeirah",
+        "developer":"Dubai Properties",
+        "desc":"Built with attention to detail, this property offers a refined living experience. Spacious interiors create a sense of openness. Natural light flows through well-placed windows. Living and dining areas are practical and welcoming. Bedrooms ensure comfort and privacy. Premium finishes enhance visual appeal. The property is located in a desirable neighborhood. Suitable for families and investors."
+        
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L23.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 13,
+      "title": "Al Barari Luxury Mansion",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 29,000,000",
+      "bedrooms": 6,
+      "bathrooms": 7,
+      "area": "11000 sqft",
+      "location": "Al Barari",
+      "image": "/assets/Explore/L8.webp",
+      "description": "Green community luxury mansion with natural surroundings.",
+      "slides": [
+      {
+        "num":"13",
+        "type": "imageText",
+        "title": "Al Barari Luxury Mansion",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L8.webp",
+        "square": "3040m",
+        "room":"6",
+        "booking":"30%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L8.webp",
+        "title": "Al Barari Luxury Mansion",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Dubai Properties",
+        "desc":"This contemporary home combines smart design with everyday comfort. The layout allows efficient use of space across all rooms. Large windows enhance brightness and openness. Living areas support both leisure and functionality. Bedrooms are well-sized and peaceful. Finishes are modern and low maintenance. The surrounding area offers essential amenities nearby. A strong choice for quality living."
+      },
+      {
+        "type": "image",
+        "image":"/assets/Explore/L8.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 14,
+      "title": "Sobha Hartland Apartment",
+      "type": "Apartment",
+      "purpose": "Sell",
+      "price": "AED 2,200,000",
+      "bedrooms": 2,
+      "bathrooms": 2,
+      "area": "1200 sqft",
+      "location": "Business Bay",
+      "image": "/assets/Explore/BU5.jpg",
+      "description": "Premium finishing apartment close to Downtown.",
+      "slides": [
+      {
+        "num":"14",
+        "type": "imageText",
+        "title": "Sobha Hartland Apartment",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/BU5.jpg",
+        "square": "3040m",
+        "room":"4",
+        "booking":"50%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/BU5.jpg",
+        "title": "Sobha Hartland Apartment",
+        "location": "Business Bay",
+        "developer":"Luxline Properties",
+        "desc":"This well-designed residence supports a balanced lifestyle. The layout emphasizes comfort and usability. Bright interiors create a positive living environment. Living spaces are ideal for relaxation and hosting guests. Bedrooms are quiet and thoughtfully positioned. Quality finishes add durability and elegance. The location provides strong connectivity. A valuable long-term asset."
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/BU5.jpg"
+        
+      }
+    ]
+    },
+    {
+      "id": 15,
+      "title": "JBR Beachfront Penthouse",
+      "type": "Penthouse",
+      "purpose": "Buy",
+      "price": "AED 21,500,000",
+      "bedrooms": 4,
+      "bathrooms": 4,
+      "area": "5200 sqft",
+      "location": "Dubai Marina",
+      "image":"/assets/Explore/L111.webp",
+      "description": "Luxury penthouse with full sea and skyline view.",
+      "slides": [
+      {
+        "num":"15",
+        "type": "imageText",
+        "title": "JBR Beachfront Penthouse",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L111.webp",
+        "square": "3040m",
+        "room":"4",
+        "booking":"20%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L111.webp",
+        "title": "JBR Beachfront Penthouse",
+        "location": "Dubai Marina",
+        "developer":"Luxline Properties",
+        "desc":"This luxury villa is thoughtfully designed to offer a calm and comfortable living experience. From the moment you enter, the spacious layout, high ceilings, and large windows create a bright and airy environment that feels open and welcoming. Natural light flows effortlessly through every room, enhancing the warmth and beauty of the interiors.\n\nEvery corner of this home reflects quality and attention to detail."
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L111.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 16,
+      "title": "Arabian Ranches Family Villa",
+      "type": "Villa",
+      "purpose": "Rent",
+      "price": "AED 260,000",
+      "bedrooms": 5,
+      "bathrooms": 5,
+      "area": "4300 sqft",
+      "location": "Palm Jumeirah",
+      "image": "/assets/Explore/L11.jpg",
+      "description": "Peaceful gated community villa ideal for families.",
+      "slides": [
+      {
+        "num":"16",
+        "type": "imageText",
+        "title": "Arabian Ranches Family Villa",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L11.jpg",
+        "square": "3040m",
+        "room":"5",
+        "booking":"30%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L11.jpg",
+        "title": "Arabian Ranches Family Villa",
+        "location": "Palm Jumeirah",
+        "developer":"Dubai Properties",
+        "desc":"This modern apartment is designed for comfortable urban living in the heart of Business Bay. Positioned on a high floor, it offers impressive skyline views that enhance the living experience.Large windows create a bright and open atmosphere throughout the home. Finishes are modern, durable, and easy to maintain. The living area is ideal for both relaxation and everyday functionality. Its prime location ensures excellent connectivity to key business and lifestyle destinations."
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L11.jpg"
+        
+      }
+    ]
+    },
+    {
+      "id": 17,
+      "title": "Creek Harbour View Apartment",
+      "type": "Apartment",
+      "purpose": "Sell",
+      "price": "AED 1,850,000",
+      "bedrooms": 6,
+      "bathrooms": 2,
+      "area": "980 sqft",
+      "location": "Business Bay",
+      "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+      "description": "Waterfront apartment with skyline views.",
+      "slides": [
+      {
+        "num":"17",
+        "type": "imageText",
+        "title": "Creek Harbour View Apartment",
+        "price": "6 578884744 AED",
+         "image":"https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+        "square": "3040m",
+        "room":"6",
+        "booking":"50%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae",
+        "title": "Creek Harbour View Apartment",
+        "location": "Business Bay",
+        "developer":"Luxline Properties",
+        "desc":"Designed for contemporary living, this residence blends elegance with practicality. The layout maximizes usable space and smooth movement between rooms. Natural light enhances the warmth of the interiors. Living areas are perfect for family time and gatherings. Bedrooms are well-proportioned and peaceful. High-quality finishes elevate the overall appeal. The property offers a secure and comfortable lifestyle. Ideal for both end users and investors."
+      },
+      {
+        "type": "image",
+        "image": "https://images.unsplash.com/photo-1507089947368-19c1da9775ae"
+        
+      }
+    ]
+    },
+    {
+      "id": 18,
+      "title": "DAMAC Hills Premium Villa",
+      "type": "Villa",
+      "purpose": "Buy",
+      "price": "AED 6,900,000",
+      "bedrooms": 5,
+      "bathrooms": 6,
+      "area": "5600 sqft",
+      "location": "DAMAC Hills",
+      "image":"/assets/Explore/L10.webp",
+      "description": "Luxury golf community villa with private garden.",
+      "slides": [
+      {
+        "num":"18",
+        "type": "imageText",
+        "title": "DAMAC Hills Premium Villa",
+        "price": "6 578884744 AED",
+         "image": "/assets/Explore/L10.webp",
+        "square": "3040m",
+        "room":"5",
+        "booking":"20%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "/assets/Explore/L10.webp",
+        "title": "DAMAC Hills Premium Villa",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties",
+        "desc":"A modern property designed to meet contemporary lifestyle needs. The interiors are spacious and efficiently planned. Natural lighting enhances warmth throughout the home. Living areas provide flexibility and comfort. Bedrooms are private and well-arranged. Finishes reflect quality craftsmanship. Outdoor views complement the living experience. Ideal for urban living or investment."
+      },
+      {
+        "type": "image",
+        "image": "/assets/Explore/L10.webp"
+        
+      }
+    ]
+    },
+    {
+      "id": 19,
+      "title": "Palm West Beach Apartment",
+      "type": "Apartment",
+      "purpose": "Rent",
+      "price": "AED 240,000",
+      "bedrooms": 2,
+      "bathrooms": 3,
+      "area": "1500 sqft",
+      "location": "Palm Jumeirah",
+      "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+      "description": "Modern beachfront apartment with sunset views.",
+      "slides": [
+      {
+        "num":"19",
+        "type": "imageText",
+        "title":"Palm West Beach Apartment",
+        "price": "6 578884744 AED",
+         "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "square": "3040m",
+        "room":"2",
+        "booking":"40%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750",
+        "title": "Palm West Beach Apartment",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties",
+        "desc":"The living areas are perfect for relaxing with family, while the bedrooms provide privacy and quiet for peaceful rest.\n\nSurrounded by a well-planned community, this home offers a sense of security, exclusivity, and long-term value. Whether you are enjoying a quiet morning, hosting guests, or spending time with loved ones, this villa adapts to your lifestyle with ease. It is more than just a property — it is a place where comfort meets luxury, and everyday living feels truly special."
+      },
+      {
+        "type": "image",
+        "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750"
+        
+      }
+    ]
+    },
+    {
+      "id": 20,
+      "title": "Dubai Silicon Oasis Townhouse",
+      "type": "Townhouse",
+      "purpose": "Sell",
+      "price": "AED 2,750,000",
+      "bedrooms": 3,
+      "bathrooms": 4,
+      "area": "2800 sqft",
+      "location": "Dubai Silicon Oasis",
+      "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+      "description": "Smart home townhouse in tech-friendly community.",
+      "slides": [
+      {
+        "num":"20",
+        "type": "imageText",
+        "title": "Dubai Silicon Oasis Townhouse",
+        "price": "6 578884744 AED",
+         "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+        "square": "3040m",
+        "room":"3",
+        "booking":"50%",
+        "date":"01.2025"
+
+        
+      },
+      {
+        "type": "imageData",
+         "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126",
+        "title": "Dubai Silicon Oasis Townhouse",
+        "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties",
+        "desc":"Every corner of this home reflects quality and attention to detail — from premium materials and elegant finishes to carefully planned spaces that balance style with functionality. The living areas are perfect for relaxing with family, while the bedrooms provide privacy and quiet for peaceful rest.\n\nSurrounded by a well-planned community, this home offers a sense of security, exclusivity, and long-term value. Whether you are enjoying a quiet morning, hosting guests,this villa adapts to your lifestyle with ease."
+      },
+      {
+        "type": "image",
+        "image": "https://images.unsplash.com/photo-1576941089067-2de3c901e126"
+        
+      }
+    ]
+    },
+    {
+  "id": 21,
+  "title": "JBR Sea Breeze Apartment",
+  "type": "Apartment",
+  "purpose": "Rent",
+  "price": "AED 230,000",
+  "bedrooms": 2,
+  "bathrooms": 3,
+  "area": "1550 sqft",
+  "location": "Business Bay",
+  "image": "/assets/Explore/L21.webp",
+  "description": "Sea-facing apartment with beach lifestyle access.",
+  "slides": [
+    {
+      "num": "21",
+      "type": "imageText",
+      "title": "JBR Sea Breeze Apartment",
+      "price": "AED 230,000",
+      "image": "/assets/Explore/L21.webp",
+      "square": "1550 sqft",
+      "room": "2",
+      "booking": "10%",
+      "date": "06.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "JBR Sea Breeze Apartment",
+      "desc": "This well-designed residence supports a balanced lifestyle. The layout emphasizes comfort and usability. Bright interiors create a positive living environment. Living spaces are ideal for relaxation and hosting guests. Bedrooms are quiet and thoughtfully positioned. Quality finishes add durability and elegance. The location provides strong connectivity. A valuable long-term asset.",
+      "image": "/assets/Explore/L21.webp",
+      "location": "Business Bay",
+        "developer":"Luxline Properties"
+
+    },
+    {
+      "type": "image",
+      "image": "/assets/Explore/L21.webp"
+    }
+  ]
+},
+{
+  "id": 22,
+  "title": "Dubai Hills Garden Villa",
+  "type": "Villa",
+  "purpose": "Buy",
+  "price": "AED 8,750,000",
+  "bedrooms": 5,
+  "bathrooms": 6,
+  "area": "7000 sqft",
+  "location": "Palm Jumeirah",
+  "image": "/assets/Explore/L20.webp",
+  "description": "Luxury villa surrounded by landscaped greenery.",
+  "slides": [
+    {
+      "num": "22",
+      "type": "imageText",
+      "title": "Dubai Hills Garden Villa",
+      "price": "AED 8,750,000",
+      "image":  "/assets/Explore/L20.webp",
+      "square": "7000 sqft",
+      "room": "5",
+      "booking": "25%",
+      "date": "09.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "Dubai Hills Garden Villa",
+      "desc": "Built with attention to detail, this property offers a refined living experience. Spacious interiors create a sense of openness. Natural light flows through well-placed windows. Living and dining areas are practical and welcoming. Bedrooms ensure comfort and privacy. Premium finishes enhance visual appeal. The property is located in a desirable neighborhood. Suitable for families and investors.",
+      "image": "/assets/Explore/L20.webp",
+      "location": "Palm Jumeirah",
+        "developer":"Emaar Properties"
+    },
+    {
+      "type": "image",
+      "image":  "/assets/Explore/L20.webp"
+    }
+  ]
+},
+{
+  "id": 23,
+  "title": "Business Bay Skyline Apartment",
+  "type": "Apartment",
+  "purpose": "Sell",
+  "price": "AED 1,980,000",
+  "bedrooms": 1,
+  "bathrooms": 2,
+  "area": "980 sqft",
+  "location": "Business Bay",
+  "image": "/assets/Explore/L18.webp",
+  "description": "High-floor apartment with city skyline views.",
+  "slides": [
+    {
+      "num": "23",
+      "type": "imageText",
+      "title": "Business Bay Skyline Apartment",
+      "price": "AED 1,980,000",
+      "image": "/assets/Explore/L18.webp",
+      "square": "980 sqft",
+      "room": "1",
+      "booking": "15%",
+      "date": "05.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "Business Bay Skyline Apartment",
+      "desc": "This contemporary home combines smart design with everyday comfort. The layout allows efficient use of space across all rooms. Large windows enhance brightness and openness. Living areas support both leisure and functionality. Bedrooms are well-sized and peaceful. Finishes are modern and low maintenance. The surrounding area offers essential amenities nearby. A strong choice for quality living.",
+      "image": "/assets/Explore/L18.webp",
+      "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties"
+    },
+    {
+      "type": "image",
+      "image":"/assets/Explore/L18.webp"
+    }
+  ]
+},
+{
+  "id": 24,
+  "title": "Palm West Luxury Residence",
+  "type": "Apartment",
+  "purpose": "Buy",
+  "price": "AED 7,900,000",
+  "bedrooms": 3,
+  "bathrooms": 4,
+  "area": "2500 sqft",
+  "location": "Palm Jumeirah",
+  "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
+  "description": "Premium residence with iconic Palm views.",
+  "slides": [
+    {
+      "num": "24",
+      "type": "imageText",
+      "title": "Palm West Luxury Residence",
+      "price": "AED 7,900,000",
+      "image":  "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
+      "square": "2500 sqft",
+      "room": "3",
+      "booking": "30%",
+      "date": "10.2025"
+    },
+    {
+      "type": "imageData",
+      "title":  "Palm West Luxury Residence",
+      "desc": "A thoughtfully planned property designed for modern living standards. The interiors feel spacious and well-balanced. Natural lighting improves the overall ambiance. Living areas are ideal for daily use and social gatherings. Bedrooms provide a sense of privacy and relaxation. Materials used are durable and stylish. The location offers easy access to key destinations. Perfect for long-term residential value.",
+      "image":  "https://images.unsplash.com/photo-1613490493576-7fde63acd811",
+      "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties"
+    },
+    {
+      "type": "image",
+      "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811"
+    }
+  ]
+},
+{
+  "id": 25,
+  "title": "Arabian Ranches Family Villa",
+  "type": "Villa",
+  "purpose": "Rent",
+  "price": "AED 280,000",
+  "bedrooms": 4,
+  "bathrooms": 5,
+  "area": "4200 sqft",
+  "location": "Arabian Ranches",
+  "image": "/assets/Explore/L14.webp",
+  "description": "Spacious villa in a peaceful gated community.",
+  "slides": [
+    {
+      "num": "25",
+      "type": "imageText",
+      "title": "Arabian Ranches Family Villa",
+      "price": "AED 280,000",
+      "image": "/assets/Explore/L14.webp",
+      "square": "4200 sqft",
+      "room": "4",
+      "booking": "10%",
+      "date": "07.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "Arabian Ranches Family Villa",
+      "desc": "This modern home features clean lines and a functional layout. Spacious interiors create a welcoming and open environment. Large windows bring in fresh air and daylight. The living area is designed for everyday comfort and relaxation. Bedrooms are private and thoughtfully arranged. Finishes are stylish and easy to maintain. The property is set within a well-connected location. A smart choice for long-term living.",
+      "image": "/assets/Explore/L14.webp",
+      "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties"
+    },
+    {
+      "type": "image",
+      "image": "/assets/Explore/L14.webp"
+    }
+  ]
+},
+{
+  "id": 26,
+  "title": "City Walk Urban Apartment",
+  "type": "Apartment",
+  "purpose": "Sell",
+  "price": "AED 2,450,000",
+  "bedrooms": 2,
+  "bathrooms": 3,
+  "area": "1350 sqft",
+  "location": "City Walk",
+  "image":"/assets/Explore/L16.jpg",
+  "description": "Stylish apartment near lifestyle destinations.",
+  "slides": [
+    {
+      "num": "26",
+      "type": "imageText",
+      "title": "City Walk Urban Apartment",
+      "price": "AED 2,450,000",
+      "image": "/assets/Explore/L16.jpg",
+      "square": "1350 sqft",
+      "room": "2",
+      "booking": "20%",
+      "date": "06.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "City Walk Urban Apartment",
+      "desc": "Offering a balance of comfort and style, this property suits modern lifestyles. The interiors are carefully designed for space efficiency. Bright rooms create a fresh and inviting feel. Living and dining areas flow seamlessly together. Bedrooms ensure privacy and personal comfort. Quality fittings add value and durability. The surrounding community enhances daily convenience. Suitable for families and professionals alike.",
+      "image": "/assets/Explore/L16.jpg",
+      "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties"
+    },
+    {
+      "type": "image",
+      "image": "/assets/Explore/L16.jpg"
+    }
+  ]
+},
+{
+  "id": 27,
+  "title": "Creek Harbour Waterfront Apartment",
+  "type": "Apartment",
+  "purpose": "Buy",
+  "price": "AED 3,150,000",
+  "bedrooms": 2,
+  "bathrooms": 3,
+  "area": "1450 sqft",
+  "location": "Business Bay",
+  "image": "/assets/Explore/BU6.jpg",
+  "description": "Waterfront apartment with skyline views.",
+  "slides": [
+    {
+      "num": "27",
+      "type": "imageText",
+      "title": "Creek Harbour Waterfront Apartment",
+      "price": "AED 3,150,000",
+      "image": "/assets/Explore/BU6.jpg",
+      "square": "1450 sqft",
+      "room": "2",
+      "booking": "25%",
+      "date": "08.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "Creek Harbour Waterfront Apartment",
+      "desc": "This elegant residence is crafted for a comfortable urban lifestyle. The layout supports both functionality and visual appeal. Ample natural light enhances the interiors. Living spaces are open and easy to furnish. Bedrooms offer a quiet retreat from daily routines. Finishing quality reflects attention to detail. Outdoor views add to the overall charm. A reliable option for investment or self-use.",
+      "image": "/assets/Explore/BU6.jpg",
+      "location": "Business Bay",
+        "developer":"Emaar Properties"
+    },
+    {
+      "type": "image",
+      "image": "/assets/Explore/BU6.jpg"
+    }
+  ]
+},
+{
+  "id": 28,
+  "title": "DAMAC Hills Golf View Villa",
+  "type": "Villa",
+  "purpose": "Buy",
+  "price": "AED 6,750,000",
+  "bedrooms": 5,
+  "bathrooms": 6,
+  "area": "5600 sqft",
+  "location": "DAMAC Hills",
+  "image": "/assets/Explore/L24.jpg",
+  "description": "Golf-course facing luxury villa.",
+  "slides": [
+    {
+      "num": "28",
+      "type": "imageText",
+      "title": "DAMAC Hills Golf View Villa",
+      "price": "AED 6,750,000",
+      "image":  "/assets/Explore/L24.jpg",
+      "square": "5600 sqft",
+      "room": "5",
+      "booking": "20%",
+      "date": "09.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "DAMAC Hills Golf View Villa",
+      "desc": "This modern home features clean lines and a functional layout. Spacious interiors create a welcoming and open environment. Large windows bring in fresh air and daylight. The living area is designed for everyday comfort and relaxation. Bedrooms are private and thoughtfully arranged. Finishes are stylish and easy to maintain. The property is set within a well-connected location. A smart choice for long-term living.",
+      "image":  "/assets/Explore/L24.jpg",
+      "location": "Palm Jumeirah",
+        "developer":"Luxline Properties"
+    },
+    {
+      "type": "image",
+      "image":  "/assets/Explore/L24.jpg"
+    }
+  ]
+},
+{
+  "id": 29,
+  "title": "Sobha Hartland Premium Apartment",
+  "type": "Apartment",
+  "purpose": "Sell",
+  "price": "AED 2,350,000",
+  "bedrooms": 2,
+  "bathrooms": 2,
+  "area": "1200 sqft",
+  "location": "Sobha Hartland",
+  "image": "/assets/Explore/L6.webp",
+  "description": "High-quality apartment near Downtown Dubai.",
+  "slides": [
+    {
+      "num": "29",
+      "type": "imageText",
+      "title": "Sobha Hartland Premium Apartment",
+      "price": "AED 2,350,000",
+      "image": "/assets/Explore/L6.webp",
+      "square": "1200 sqft",
+      "room": "2",
+      "booking": "20%",
+      "date": "06.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "Sobha Hartland Premium Apartment",
+      "desc": "This modern home features clean lines and a functional layout. Spacious interiors create a welcoming and open environment. Large windows bring in fresh air and daylight. The living area is designed for everyday comfort and relaxation. Bedrooms are private and thoughtfully arranged. Finishes are stylish and easy to maintain. ",
+      "image": "/assets/Explore/L6.webp",
+      "location": "Palm Jumeirah, Dubai",
+        "developer":"Luxline Properties"
+    },
+    {
+      "type": "image",
+      "image": "/assets/Explore/L6.webp"
+    }
+  ]
+},
+{
+  "id": 30,
+  "title": "Silicon Oasis Smart Townhouse",
+  "type": "Townhouse",
+  "purpose": "Buy",
+  "price": "AED 2,950,000",
+  "bedrooms": 3,
+  "bathrooms": 4,
+  "area": "2900 sqft",
+  "location": "Business Bay",
+  "image": "/assets/Explore/L25.jpg",
+  "description": "Smart home townhouse in a tech-friendly community.",
+  "slides": [
+    {
+      "num": "30",
+      "type": "imageText",
+      "title": "Silicon Oasis Smart Townhouse",
+      "price": "AED 2,950,000",
+      "image":  "/assets/Explore/L25.jpg",
+      "square": "2900 sqft",
+      "room": "3",
+      "booking": "25%",
+      "date": "08.2025"
+    },
+    {
+      "type": "imageData",
+      "title": "Silicon Oasis Smart Townhouse",
+      "desc": "Designed for contemporary living, this residence blends elegance with practicality. The layout maximizes usable space and smooth movement between rooms. Natural light enhances the warmth of the interiors. Living areas are perfect for family time and gatherings. Bedrooms are well-proportioned and peaceful. High-quality finishes elevate the overall appeal. The property offers a secure and comfortable lifestyle. ",
+      "image": "/assets/Explore/L25.jpg",
+      "location": "Business Bay",
+        "developer":"Emaar Properties"
+    },
+    {
+      "type": "image",
+      "image": "/assets/Explore/L25.jpg"
+    }
+  ]
+}
+  ]
+}

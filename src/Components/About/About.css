@@ -1,0 +1,135 @@
+.about-page {
+  width: 100%;
+  background: #fff;
+  height: 2500px;
+}
+
+/* Hero Image */
+.about-hero img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+}
+
+/* Content Layout */
+.about-content {
+  max-width: 1200px;
+  margin: 80px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 60px;
+}
+
+/* Text */
+.about-text p {
+  font-size: 18px;
+  line-height: 1.9;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* Badge */
+.about-badge {
+  display: flex;
+  justify-content: center;
+}
+
+.about-badge img {
+  width: 420px;
+  height: auto;
+  padding-bottom: 10rem;
+  
+}
+.about-both{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.about-boxx{
+  width: 40%;
+  text-align: center;
+}
+.about-boxx h2{
+     font-family: "Libertinus Sans", Sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+        color: #BDA588;
+    
+}
+.about-boxx p{
+  color: var(--e-global-color-dea05bf);
+    font-family: "Inter / Regular", Sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+        line-height: 2rem;
+        color:#333333;
+}
+
+
+/* Why Choose Us */
+.why-choose {
+  max-width: 1300px;
+  margin: 120px auto;
+  padding: 0 20px;
+  text-align: center;
+  padding-top: 4.5rem;
+}
+
+.why-choose h2 {
+  font-size: 38px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.why-subtitle {
+  color: #777;
+  margin-bottom: 50px;
+  font-size: 16px;
+}
+
+.why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.why-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 20px;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.06);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.why-icon {
+  font-size: 36px;
+  margin-bottom: 15px;
+  color: #111;
+}
+
+.why-card h4 {
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  font-weight: 500;
+}
+
+.why-card h3 {
+  font-size: 38px;
+  margin-bottom: 6px;
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+

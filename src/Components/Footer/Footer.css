@@ -1,0 +1,115 @@
+.footer-main {
+  background: linear-gradient(
+    to top,
+    #0f0f0f,
+    #1a1a1a
+  );
+  color: #ffffff;
+  padding: 80px 0 30px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.footer-top {
+  width: 85%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+
+/* Brand */
+.logooo-imgg{
+   height:200px;
+   width: 250px;
+}
+
+.brand p {
+  color: #bdbdbd;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  position: relative;
+  bottom: 35px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px;
+  position: relative;
+  bottom: 38px;
+
+}
+
+.social-icons svg {
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-icons svg:hover {
+  background: #ffffff;
+  color: #000;
+}
+
+/* Columns */
+.footer-col h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col li {
+  margin-bottom: 12px;
+  color: #bdbdbd;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-col li:hover {
+  color: #ffffff;
+  padding-left: 5px;
+}
+
+/* Bottom */
+.footer-bottom {
+  border-top: 1px solid rgba(255,255,255,0.1);
+  margin-top: 60px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #9e9e9e;
+}
+
+.scroll-top-btn {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #ffffff;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+  z-index: 999;
+}
+
+.scroll-top-btn:hover {
+  transform: translateY(-5px);
+  background: #ddd;
+}
