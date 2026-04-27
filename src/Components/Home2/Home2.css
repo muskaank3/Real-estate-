@@ -37,6 +37,9 @@ html, body {
     width: 13%;
    
 }
+.link-btn {
+  text-decoration: none;
+}
 
 .aboutt{
    
@@ -49,12 +52,14 @@ html, body {
     background-color: rgb(45, 64, 229);
     color: black;
     font-weight: bolder;
+   
     
 }
 .butt-main{
   display: flex;
   justify-content: center;
   align-items: center;
+   
 }
 
 .aboutt:hover{
@@ -275,7 +280,7 @@ html, body {
 .lower-review{
    height: 265px;
    width: 100%;
-   
+    gap: 40px;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
@@ -337,7 +342,7 @@ html, body {
 
 }
  .coment{
-   width: 80%;
+   width: 90%;
    margin-top: 5rem;
 } 
 .line{
@@ -635,7 +640,11 @@ html, body {
   bottom: 40px;
 }
 .slide-content{
-  margin-top: 75px;
+          margin-top: 22px;
+        height: auto;
+        align-items: center;
+        text-align: left;
+        gap: 5px;
 }
 
 
@@ -692,13 +701,7 @@ html, body {
     object-fit: cover;
     min-height: 350px;
 }
-.slide2-title{
-  font-size: 30px;
-  font-weight: bold;
-  text-align: left;
-  width: 80%;
-  padding: 10px;
-}
+
 .slide2-para{
   font-size: 15px;
   font-weight: lighter;
@@ -755,15 +758,10 @@ html, body {
   font-size: 30px;
   font-weight: bold;
   text-align: left;
-  width: 110%;
+  width: 100%;
   padding: 10px;
-  position: relative;
-  top: 28%;
 
-  display: -webkit-box;
-  -webkit-line-clamp: 4;   /* max 2 lines */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+
 }
 
 /* DESCRIPTION CLAMP */
@@ -779,10 +777,7 @@ html, body {
   width: 100%;
 
 
-  display: -webkit-box;
-  -webkit-line-clamp: 8;   /* max 5 lines */
-  -webkit-box-orient: vertical;
-  overflow: hidden;
+ 
 }
 
 
@@ -840,6 +835,432 @@ html, body {
 
 
 
+
+
+
+
+/* .coment {
+  display: -webkit-box;
+  -webkit-line-clamp: 9;
+  -webkit-box-orient: horizontal;
+  overflow: hidden;
+} */
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width: 480px) {
+
+  /* MAIN */
+  .home2-main {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  /* TOP TEXT */
+  .btn-mainn {
+    padding-left: 20px;
+  }
+
+  .home2-btn {
+    width: auto;
+    font-size: 12px;
+    margin-top: 5rem;
+    padding: 6px 12px;
+  }
+
+  .home2-para {
+    font-size: 16px;
+    width: 90%;
+    padding-left: 20px;
+  }
+
+  .aboutt {
+    font-size: 14px;
+    padding: 6px 14px;
+  }
+
+   .first-side {
+    display: none;
+  }
+
+  .box-main {
+    flex-direction: column;
+    width: 95%;
+    margin: 2rem auto;
+    border: none;
+  }
+  .lower-review{
+   
+    gap: 14px;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+
+  .second-side {
+    width: 100%;
+    margin-top: 0;
+    right: 0;
+  }
+
+  .box-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .box {
+    width: 82%;
+    height: 190px;
+    border-radius: 10px;
+    margin-top: 20px
+  }
+
+  .box-grid h1 {
+    margin-top: 2.5rem;
+    font-size: 27px;
+  }
+
+  .box-grid p {
+    font-size: 19px;
+  }
+
+
+  .card-grid {
+    grid-template-columns: 1fr;   /* 1 card per row */
+      width: 94%;
+      height: 380px;
+      margin: 10px auto;
+    }
+
+  .card {
+    width: 100%;
+    height: 450px;
+    margin: 10px auto;
+  }
+
+  .projects{
+    font-size: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction:row;
+           
+  }
+  .fea{
+    min-height: 1700px;
+  }
+
+  .featured-head {
+    font-size: 18px;
+    margin-bottom: 0;
+  }
+
+  .featured-para {
+    font-size: 16px;
+    width: 90%;
+    margin-bottom: 90px;
+  }
+
+  .view-btn {
+    font-size: 12px;
+    padding: 8px 14px;
+  }
+
+
+  .featured-head {
+  margin-top: 22rem;
+} 
+
+.content {
+  position: absolute;
+  bottom: 35px;   /* 🔥 always bottom pe rahega */
+  left: 0;
+  width: 120%;
+  padding: 10px 0px;
+  z-index: 3;
+}
+
+.featured-head {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.featured-para {
+  font-size: 10px;
+  width: 100%;
+  margin: 5px 0;
+}
+
+/* POPUP BOX */
+.details-box {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+/* MATCH CARD SIZE */
+.slider-window.large {
+  width: 94%;   /* SAME as card width */
+  height: 370px;
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* SLIDER TRACK */
+.slider-track {
+  display: flex;
+  height: 100%;
+  transition: transform 0.5s ease-in-out;
+}
+
+.detail-slide {
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* ================= FIRST SLIDE (NO IMAGE FULL DETAILS) ================= */
+
+.slide-img-text {
+  display: flex;
+  flex-direction: column;   /* 🔥 image hata diya */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+.slide-img {
+  display: none;  /* 🔥 IMAGE REMOVE */
+}
+
+.slide-text {
+  width: 100%;
+}
+
+.slide-text-first {
+  width: 100%;
+  font-size: 22px;
+}
+
+.slide-grid {
+  grid-template-columns: repeat(2, 1fr); /* 🔥 4 se 2 kiya */
+  gap: 10px;
+}
+
+.slide-boxx {
+  width: 100%;
+  height: auto;
+}
+
+/* ================= SECOND SLIDE ================= */
+
+.slide-only-text {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+/* LEFT SIDE CONTENT */
+
+
+/* RIGHT IMAGE */
+
+
+/* TEXT FIX */
+.slide2-title {
+           font-size: 18px;
+        padding-top: 50px;
+        position: absolute;
+        top: 35%;
+        width: 90%;
+  }
+
+.slide2-para {
+    font-size: 13px;
+    font-weight: lighter;
+    color: grey;
+    text-align: left;
+    line-height: 20px;
+    padding: 10px;
+    position: relative;
+    top: -20%;
+    width: 88%;
+    display: -webkit-box;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+.second-slide-upper h3 {
+    font-size: 0.7rem;
+}
+.second-slide-upper p {
+    font-size: 0.6rem;
+}
+
+.second-slide-upper {
+    width: 85%;
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+.chota-img {
+    height: 60px;
+    width: 110px;
+    border-radius: 15px;
+}
+
+
+
+/* ================= THIRD SLIDE ================= */
+
+/* ===== SLIDE 3 FIX (NO SCROLL, PERFECT FIT) ===== */
+
+.slide-only-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* GRID MAIN */
+.features-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* ✅ 2 columns */
+  gap: 20px;
+
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+
+  overflow: hidden; /* ❌ SCROLL REMOVE */
+}
+
+/* EACH COLUMN */
+.grid-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+/* EACH ITEM */
+.grid-col p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  font-size: 14px;
+  color: #333;
+
+  background: #f5f5f5;
+  padding: 10px 14px;
+  border-radius: 10px;
+
+  margin: 0;
+
+  /* ❌ REMOVE EXTRA WIDTH + SHIFT */
+  width: 100%;
+  position: static;
+}
+
+/* ICON */
+.grid-col i {
+  margin-right: 10px;
+}
+
+/* CHECK ICON */
+.check {
+  color: green;
+  font-weight: bold;
+}
+
+    .review1{
+   padding-top: 300px;
+    }
+
+    .client-cover {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: -14px;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.re-no {
+    font-size: 18px;
+    padding: 7px 7px;
+}
+    
+.re-content {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 0.8rem;
+}
+.orange {
+    display: none
+}
+.coment-line{
+  font-size: 10px;
+  line-height: 0.7rem;
+  width: 140%;
+}
+
+.review-head {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 8rem;
+    /* padding: 0px 100px; */
+    margin-left: 12px;
+}
+
+
+}
+
+@media (max-width: 480px) {
+
+  
+  
+
+  .coment-line {
+    font-size: 10px;
+    line-height: 1rem;
+  margin: 0;        /* 🔥 gap hata dega */
+  line-height: 1.6; 
+}
+  
+.arrow{
+  display: none;
+}
+
+  .line {
+    width: 50%;
+    margin: 20px auto;
+    margin-right: 35px;
+  }
+
+  .client-neeche {
+    flex-direction: row;
+    margin: 10px auto;
+    margin-left: 38%;
+  }
+
+  .client-name {
+    text-align: left;
+  }
+}
 
 
 

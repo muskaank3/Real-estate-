@@ -13,6 +13,7 @@ import r7Img from '../../assets/Section/r7.jpg'
 import r4Img from '../../assets/Section/r4.jpg'
 import { motion , AnimatePresence} from "framer-motion";
 import { useState, useEffect } from "react";
+import { Link } from 'react-router-dom';
 
 
 
@@ -37,6 +38,33 @@ const Home2 = () => {
   return lines;
 };
 
+const useCountUp = (end) => {
+  const [count, setCount] = useState(0);
+
+  useEffect(() => {
+    let start = 0;
+
+    const interval = setInterval(() => {
+      start += Math.ceil(end / 50); // speed control
+
+      if (start >= end) {
+        setCount(end);
+        clearInterval(interval);
+      } else {
+        setCount(start);
+      }
+    }, 30);
+
+    return () => clearInterval(interval);
+  }, [end]);
+
+
+  return count;
+};
+const count1 = useCountUp(1200);
+const count2 = useCountUp(250);
+const count3 = useCountUp(10);
+const count4 = useCountUp(90);
 
 const container = {
   hidden: {},
@@ -266,8 +294,11 @@ useEffect(() => {
       </span>
     </p>
 
+   <Link to="/about" className='link-btn'>
     <div className='butt-main'><button className='aboutt'>About Us</button></div>
+    </Link>
   </motion.div>
+  
 
 
 
@@ -301,22 +332,22 @@ useEffect(() => {
       <div className='box-grid'>
         <div className='box'>
           <div className='arrow'>↗︎</div>
-          <h1>1,200+</h1>
+          <h1>{count1}+</h1>
           <p>Project Complete</p>
         </div>
         <div className='box'>
           <div className='arrow'>↗︎</div>
-          <h1>250+</h1>
+          <h1>{count2}+</h1>
           <p>Happy Clients</p>
         </div>
         <div className='box'>
           <div className='arrow'>↗︎</div>
-          <h1>$10M</h1>
+          <h1>${count3}M</h1>
           <p>Project Value</p>
         </div>
         <div className='box'>
           <div className='arrow'>↗︎</div>
-          <h1>90%</h1>
+          <h1>{count4}%</h1>
           <p>Client Retention Rate</p>
         </div>
       </div>
@@ -333,10 +364,9 @@ useEffect(() => {
 
 {/* {featured projects} */}
 
-<div>
+<div className='fea'>
   <h1 className='projects'>Featured Projects</h1>
      
-
    <div className='card-main'>
      <div className='card-grid'>
      {slides.map((item, index) => (
@@ -388,14 +418,14 @@ useEffect(() => {
 
 {/* {review} */}
 
-<div>
+<div className='review1'>
   <div>
     <h1 className='review-head'>What Our Clients Say</h1>
   </div>
 
   <div className='lower-review'>
     <div className='re-imgg'>
-      <div className='client-cover'>
+      <div className='client-cover1'>
         <h2 className='arrow'> → </h2>
       </div>
       <div className='client-cover'>
@@ -430,7 +460,7 @@ useEffect(() => {
           transition={{ duration: 0.5, ease: "easeOut" }}
           className='coment-line'
         >
-          {line}.
+          {line}
         </motion.p>
       ))}
     </motion.div>

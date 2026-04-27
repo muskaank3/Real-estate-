@@ -4,102 +4,164 @@ body, html, #root {
   font-family: sans-serif;
 }
 
+/* Navbar fixed + transparent by default */
 .nav-main {
-  position: absolute;     
+  position: fixed;     
   top: 0;
   left: 0;
   width: 100%;
+  height: 110px;
   z-index: 10;             
   background: transparent;
- 
+  transition: background 0.3s ease; 
+}
+
+/* Scroll ke baad blue background */
+.nav-blue {
+  background-color: rgb(171, 170, 170);
+  height: 110px;
+.list-cover{
+  box-shadow: none;
+}
 }
 
 .navbar-main {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
-  
 }
-.nav-logo{
+
+.nav-logo {
   color: white;
 }
-.logo-imgg{
-   height:150px;
-   width: 200px;
+
+.logo-imgg {
+  height: 150px;
+  width: 200px;
 }
 
-
-.nav-list{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    gap: 30px;
-    color: white;
-    cursor: pointer;
-    position: relative;
-    right: 20px;
-    
-   
-   
-}
-.list-cover{
-   
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    width: 35%;
-    border-radius: 30px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0px 0px 1px white;
-    
-    
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  gap: 30px;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  right: 20px;
 }
 
-.nav-button{
-     
-      border-radius: 25px;
-      display: flex;
-    justify-content:center;
-    align-items: center;
-    padding: 10px 25px;
-    font-size: 15px;
-    font-weight: bold;
-    background: transparent;
-    border: 1px solid white;
-    
+.list-cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35%;
+  border-radius: 30px;
+  backdrop-filter: blur(20px);
+  box-shadow: 0px 0px 1px white;
 }
-.linkss{
+
+.nav-button {
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 25px;
+  font-size: 15px;
+  font-weight: bold;
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+}
+
+.linkss {
   height: 30px;
   width: 90px;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.linkss {
   text-decoration: none;
   color: white;
 }
 
- .linkss:hover{
+.linkss:hover {
   background: white;
   color: blue;
   border-radius: 25px;
- 
 }
 
-.links:active{
+.links:active {
   background: white;
   color: blue;
   border-radius: 25px;
-
 }
 
-.nav-button:hover{
-background: transparent;
-color: blue;
-box-shadow: 0px 0px 0px 1px white;
-cursor: pointer;
+.nav-button:hover {
+  background: transparent;
+  color: blue;
+  box-shadow: 0px 0px 0px 1px white;
+  cursor: pointer;
 }
 
 
+body {
+  padding-top: 160px;
+}
+.get-startedd{
+  text-decoration: none;
+}
+
+
+
+
+
+/* ========================= */
+/* ANDROID MOBILE (360px - 480px) */
+/* ========================= */
+@media (max-width: 480px) {
+
+  .nav-main {
+    height: 85px;
+  }
+
+  .navbar-main {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    
+  }
+
+  .logo-imgg {
+    height: 65px;
+    width: 100px;
+  }
+
+  .list-cover {
+    width: 50%;
+    
+    border-radius: 40px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+  }
+
+  .linkss {
+    font-size: 11px;
+    padding: 4px 8px;
+    width: auto;
+  }
+
+  .nav-button {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+
+  body {
+    padding-top: 120px;
+  }
+}

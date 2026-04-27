@@ -1,11 +1,22 @@
-import React from 'react'
-import './Home.css'
-import h2Img from '../../assets/Home/h2.png'
-import Navbar from '../Navbar/Navbar'
-import { Link } from 'react-router-dom'
+import React, { useState , useEffect } from "react";
+import './Home.css';
+import h2Img from '../../assets/Home/h2.png';
+import Navbar from '../Navbar/Navbar';
+import { Link } from 'react-router-dom';
+
+
+
 
 
 const Home = () => {
+
+   useEffect(() => {
+          window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: "smooth",
+          });
+        }, []);
   
   return (
    <>
@@ -19,11 +30,13 @@ const Home = () => {
 
 
       <div>
-        <div>
+        <div className="home-mainn">
           <Link to="/services">
-  <button className='hero-but'>Explore Luxury Homes</button>
-</Link>
-          <h1 className='hero-head'>Your Gateway to <br></br>Dubai’s Most Prestigious Homes</h1>
+          <button className='hero-but'>
+          Explore Luxury Homes
+        </button>
+        </Link>
+          <h1 className='hero-head'>Your Gateway to <br></br>Dubai's Most Prestigious Homes</h1>
           <p className='hero-para'>Experience a new standard of elegance with exclusive villas, penthouses, and waterfront residences located in Dubai’s most prestigious neighborhoods. Designed for those who seek privacy, comfort, and timeless luxury.</p>
         </div>
       </div>

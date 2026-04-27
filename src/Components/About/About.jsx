@@ -1,17 +1,54 @@
-import React from "react";
+import React, { useState , useEffect } from "react";
 import "./About.css";
 import { motion } from "framer-motion";
-import big1Img from '../../assets/About/big1.jpg'
-import logoImg from '../../assets/About/logo-land2.png'
+import big1Img from '../../assets/About/big1.jpg';
+import logoImg from '../../assets/About/logo-land2.png';
+import new2Img from '../../assets/About/new2.jpg';
+import new55Img from '../../assets/About/new55.jpg';
+import new6Img from '../../assets/About/new6.jpg';
+import new3Img from '../../assets/About/new3.jpg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
+
+const img = [
+    { image: new2Img },
+    { image: new3Img },
+    { image: new55Img },
+    { image: new6Img },
+  ];
+
+  const [currentImage, setCurrentImage] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentImage((prev) =>
+        prev === img.length - 1 ? 0 : prev + 1
+      );
+    }, 2500);
+
+    return () => clearInterval(interval);
+  }, [img.length]);
+
+
+   useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      }, []);
   return (
    <div className="about-page">
       
       {/* Hero Banner */}
       <div className="about-hero">
-        <img src={big1Img} alt="About Banner" />
-      </div>
+  <img
+    src={img[currentImage].image}
+    className=" fade-img"
+    alt="slider"
+  />
+</div>
 
       {/* Content Section */}
       <div className="about-content">
@@ -92,6 +129,10 @@ const About = () => {
       <h4>Best Prices</h4>
     </div>
   </div>
+
+  <Link to="/contact">
+  <button className="contact-buttun">Contact Us</button>
+  </Link>
 </div>
 
     </div>

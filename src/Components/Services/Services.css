@@ -378,7 +378,7 @@ body{
   font-size: 14px;
 }
 
-.filter-options div:active {
+.filter-options div.active {
   color: #c08b5c;
   font-weight: 600;
 }
@@ -580,6 +580,280 @@ top: 4.5px;
   border-radius: 12px;
 }
 
+
+/* ========================= */
+/* 📱 TABLET (≤ 992px) */
+/* ========================= */
+@media (max-width: 480px) {
+
+  .services-page {
+    padding: 30px 20px;
+  }
+
+  /* GRID → 2 columns */
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .property-card {
+    height: auto;
+  }
+
+  .property-card img {
+    height: 200px;
+  }
+
+  /* FILTER */
+  .filter-bar {
+    flex-wrap: wrap;
+  }
+
+  .filter-box {
+    width: 37%;
+    left: 5%;
+  }
+
+  /* MODAL WIDTH FIX */
+  .slider-window {
+    max-width: 95%;
+  }
+
+  .slider-track {
+    width: 100%;
+  }
+
+  .detail-slide {
+    height: auto;
+    min-height: auto;
+    padding: 20px;
+  }
+
+  /* FIRST SLIDE */
+  .slide-img-text {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .slide-img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .slide-content {
+    margin-top: 20px;
+    height: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .slide-text-first {
+    width: 100%;
+    font-size: 22px;
+  }
+
+  .slide-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* SECOND SLIDE */
+  .slide-only-text {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .slide2-content {
+    width: 100%;
+    height: auto;
+  }
+
+  .slide2-title {
+    width: 100%;
+    font-size: 22px;
+    
+  }
+
+  .slide2-para {
+    width: 100%;
+   
+  }
+
+  .slide2-image img {
+    width: 100%;
+    height: 250px;
+  }
+
+  /* CLOSE BTN FIX */
+  .close-btn {
+    margin-left: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+}
+
+
+/* ========================= */
+/* 📱 MOBILE (≤ 600px) */
+/* ========================= */
+@media (max-width: 480px) {
+
+  /* 🔥 STILL 2 COLUMNS (as you want) */
+  .property-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .property-card img {
+    height: 150px;
+  }
+
+  .card-content{
+    padding: 14px;
+  }
+  .card-content h3 {
+    font-size: 14px;
+  }
+
+  .card-content p {
+    font-size: 12px;
+  }
+
+  .card-content h4 {
+    font-size: 11px;
+  }
+
+  /* FILTER BUTTONS */
+  .filter-bar button {
+    padding: 8px 14px;
+    font-size: 12px;
+  }
+
+  /* MODAL FULL SCREEN */
+  .details-box {
+    padding: 10px;
+  }
+
+  .slider-window {
+    max-width: 100%;
+  }
+
+  .detail-slide {
+    padding: 15px;
+  }
+
+  /* FIRST SLIDE */
+  .slide-img {
+    height: 200px;
+  }
+
+  .slide-text-first {
+    font-size: 21px;
+    
+  }
+  .slide-num{
+        font-size: 20px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+  }
+
+      .slide-content {
+        margin-top: 22px;
+        height: auto;
+        align-items: center;
+        text-align: left;
+        gap: 10px;
+    }
+
+      .slide-grid {
+        grid-template-columns: 1fr 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        margin-bottom: 35px;
+    }
+
+  .slide-boxx {
+    width: 90px;
+    height: 62px;
+  }
+
+  .slide-boxx p {
+    font-size: 10px;
+    color: grey;
+    padding: 0px 10px;
+}
+
+  .amount {
+    font-size: 24px;
+    width: 100%;
+  }
+  .slide-line{
+    margin-top: 10px;
+  }
+
+  .slide-buttonn {
+    width: 100%;
+  }
+
+  /* SECOND SLIDE */
+  .slide2-title {
+    font-size: 20px;
+    padding-top: 50px;
+    position: absolute;
+    top: 35%; 
+    width: 90%;
+  }
+
+      .second-slide-upper h3 {
+        font-size: 0.6rem;
+        width: 145%;
+      }
+
+        .second-slide-upper h3{
+          font-size: 0.7rem;
+
+        }
+
+  .slide2-para {
+    font-size: 12px;
+    width: 88%;
+    position: absolute;
+    top: 13.75rem;
+
+  }
+
+  .slide2-image img {
+    display: none;
+  }
+
+  /* FEATURES GRID (3rd slide) */
+ .detail-slide {
+    height: auto;
+    min-height: auto;
+    padding: 15px;
+  }
+
+  /* REMOVE SCROLL ISSUE */
+  .slide-only-img {
+    width: 100%;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr 1fr; /* 👈 STILL 2 columns */
+    gap: 20px;
+  }
+
+      .grid-col p {
+        font-size: 11px;
+        padding: 1px 1px;
+        gap: 2px;
+    }
+}
 
 
 

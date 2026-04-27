@@ -77,7 +77,7 @@ const Footer = () => {
           <ul>
             <li>Dubai, UAE</li>
             <li>+971 50 123 4567</li>
-            <li>info@dubailux.com</li>
+            <li>elitedwell@gmail.com</li>
           </ul>
         </div>
 

@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from "react";
 import "./Services.css";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 const Services = () => {
+
   const [properties, setProperties] = useState([]);
   const [purpose, setPurpose] = useState("All");
 
@@ -16,6 +18,14 @@ const Services = () => {
   const [showDetails, setShowDetails] = useState(false);
 const [currentSlide, setCurrentSlide] = useState(0);
 const [selectedProperty, setSelectedProperty] = useState(null);
+
+ useEffect(() => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+          behavior: "smooth",
+        });
+      }, []);
 
 
 
@@ -53,9 +63,17 @@ const [selectedProperty, setSelectedProperty] = useState(null);
           Filter
         </button>
 
+        <button
+  onClick={() => {
+    setPurpose("All");
+    setLocation("All");
+    setPriceRange("All");
+  }}
+>
+  All
+</button>
         <button onClick={() => setPurpose("Buy")}>Buy</button>
         <button onClick={() => setPurpose("Rent")}>Rent</button>
-        <button onClick={() => setPurpose("Sell")}>Sell</button>
       </div>
 
       {/* 🔥 FILTER BOX */}
@@ -106,14 +124,45 @@ const [selectedProperty, setSelectedProperty] = useState(null);
             </div>
 
             {activeDropdown === "price" && (
-              <div className="filter-options">
-                <div onClick={() => setPriceRange("All")}>All</div>
-                <div onClick={() => setPriceRange("10000000+")}>10 000 000+ AED</div>
-                <div onClick={() => setPriceRange("25000000-5000000")}>2 500 000 – 5 000 000 AED</div>
-                <div onClick={() => setPriceRange("500000-1000000")}>500 000AED - 1 000 000 AED–</div>
-                <div onClick={() => setPriceRange("0-250000")}>up to 250 000 AED</div>
-              </div>
-            )}
+  <div className="filter-options">
+
+    <div
+      className={`option ${priceRange === "All" ? "active" : ""}`}
+      onClick={() => setPriceRange("All")}
+    >
+      All
+    </div>
+
+    <div
+      className={`option ${priceRange === "10000000+" ? "active" : ""}`}
+      onClick={() => setPriceRange("10000000+")}
+    >
+      10 000 000+ AED
+    </div>
+
+    <div
+      className={`option ${priceRange === "2500000-5000000" ? "active" : ""}`}
+      onClick={() => setPriceRange("2500000-5000000")}
+    >
+      2 500 000 – 5 000 000 AED
+    </div>
+
+    <div
+      className={`option ${priceRange === "500000-1000000" ? "active" : ""}`}
+      onClick={() => setPriceRange("500000-1000000")}
+    >
+      500 000 – 1 000 000 AED
+    </div>
+
+    <div
+      className={`option ${priceRange === "0-250000" ? "active" : ""}`}
+      onClick={() => setPriceRange("0-250000")}
+    >
+      up to 250 000 AED
+    </div>
+
+  </div>
+)}
           </div>
 
         </div>

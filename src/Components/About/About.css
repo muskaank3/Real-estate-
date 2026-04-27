@@ -9,6 +9,11 @@
   width: 100%;
   height: 450px;
   object-fit: cover;
+  filter: brightness(60%); 
+   
+}
+.fade-img {
+  animation: fadeOut 0.8s ease-in;
 }
 
 /* Content Layout */
@@ -131,5 +136,135 @@
   transform: translateY(-8px);
   box-shadow: 0 15px 40px rgba(0,0,0,0.12);
 }
+
+.contact-buttun{
+      padding: 5px 20px;
+    font-size: 21px;
+    border-radius: 2rem;
+    border: 1.5px solid grey;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    font-weight: bolder;
+    margin-top: 4.5rem;
+}
+.contact-buttun:hover{
+   background: transparent;
+  color: grey;
+  border: 1px solid #b59b7c;
+}
+
+/* ================= MOBILE ================= */
+@media (max-width: 480px) {
+
+  .about-page {
+    height: 2400px;   /* 🔥 fixed height hatao */
+  }
+
+  /* HERO */
+  .about-hero img {
+    height: 260px;
+  }
+
+  /* CONTENT SECTION */
+  @media (max-width: 768px) {
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;   /* 🔥 same desktop jaisa */
+    gap: 20px;
+    align-items: flex-start;
+    margin: 40px auto;
+    padding: 0 15px;
+  }
+
+  .about-text p {
+    font-size: 13px;   /* tumne bola same chahiye */
+    line-height: 1.7;
+    width: 110%;       /* 🔥 normal rakho */
+  }
+
+  .about-badge {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about-badge img {
+    width: 160px;   /* 🔥 mobile ke liye scale down */
+    height: 200px;
+  }
+}
+
+  /* VISION MISSION */
+  .about-both {
+    flex-direction: column;   /* 🔥 stack */
+    gap: 25px;
+    padding: 0 20px;
+  }
+
+  .about-boxx {
+    width: 100%;
+    text-align: center;
+  }
+
+  .about-boxx h2 {
+    font-size: 20px;
+  }
+
+  .about-boxx p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  /* WHY CHOOSE */
+  .why-choose {
+    margin: 60px auto;
+    padding-top: 2rem;
+  }
+
+  .why-choose h2 {
+    font-size: 26px;
+  }
+
+  .why-subtitle {
+    font-size: 13px;
+    margin-bottom: 30px;
+  }
+
+  /* GRID FIX */
+  .why-grid {
+    grid-template-columns: repeat(2, 1fr);   /* 🔥 4 → 2 */
+    gap: 15px;
+  }
+
+  .why-card {
+    padding: 20px 10px;
+    min-height: 130px;
+    min-width: 10%;
+  }
+
+  .why-icon {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+
+  .why-card h4 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .why-card h3 {
+    font-size: 22px;
+  }
+
+  /* BUTTON */
+  .contact-buttun {
+    font-size: 14px;
+    padding: 8px 16px;
+    margin-top: 3rem;
+  }
+}
+
 
 

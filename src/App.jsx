@@ -8,6 +8,11 @@ import Contact from './Components/Contact/Contact';
 import Services from './Components/Services/Services';
 import Blog from './Components/Blog/Blog';
 import About from './Components/About/About';
+import Login from './Components/Login/Login';
+import Register from './Components/Register/Register';
+
+
+
 
 
 function App() {
@@ -33,6 +38,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/services" element={<Services />} />
         <Route path="/blog" element={<Blog />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        
        
       </Routes>
 
