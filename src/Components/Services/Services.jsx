@@ -30,11 +30,13 @@ const [selectedProperty, setSelectedProperty] = useState(null);
 
 
   useEffect(() => {
-    axios
-      .get("http://localhost:4000/properties")
-      .then(res => setProperties(res.data))
-      .catch(err => console.log(err));
-  }, []);
+  fetch("/db.json")
+    .then(res => res.json())
+    .then(data => {
+      setProperties(data.properties); // 👈 important
+    })
+    .catch(err => console.log(err));
+}, []);
 
   // 🔥 FINAL FILTER LOGIC
   const filteredData = properties.filter(item => {
