@@ -130,22 +130,23 @@ body {
     justify-content: space-around;
     align-items: center;
     margin-top: 15px;
+    gap: 10px;
     
   }
 
   .logo-imgg {
     height: 65px;
-    width: 100px;
+    width: 90px;
   }
 
   .list-cover {
-    width: 50%;
+    width: 90%;
     
     border-radius: 40px;
   }
 
   .nav-list {
-    flex-wrap: wrap;
+   
     gap: 6px;
     justify-content: center;
   }
@@ -159,6 +160,7 @@ body {
   .nav-button {
     font-size: 11px;
     padding: 5px 10px;
+    width: 103px;
   }
 
   body {
