@@ -16,7 +16,7 @@ body, html, #root {
   transition: background 0.3s ease; 
 }
 
-/* Scroll ke baad blue background */
+  /* Scroll ke baad blue background */
 .nav-blue {
   background-color: rgb(171, 170, 170);
   height: 110px;
@@ -160,7 +160,7 @@ body {
   .nav-button {
     font-size: 11px;
     padding: 5px 10px;
-    width: 103px;
+    width: 96px;
   }
 
   body {
