@@ -43,15 +43,13 @@ const Navbar = () => {
               <NavLink to="/contact" className='linkss'> Contact </NavLink>
             </li>
             <li className='list'>
-              <NavLink to="/about" className='linkss'> About Us </NavLink>
+              <NavLink to="/about" className='linkss'> About </NavLink>
             </li>
           </ul>
         </div>
 
-        <div>
-          <Link to="/register" className='get-startedd'>
+        <div className='get-startedd'>
           <button className='nav-button'>Get Started</button>
-          </Link>
         </div>
       </div>
     </div>

@@ -276,11 +276,6 @@ html, body {
    font-weight: lighter;
    margin-top: 8rem;
    padding: 0px 100px;
-   text-align: center;   /* 🔥 center */
-  width: 100%;
-
-  white-space: nowrap;  /* 🔥 forces one line */
-  padding: 0;  
 }
 .lower-review{
    height: 265px;
@@ -327,7 +322,6 @@ html, body {
 }
 .arrow{
    font-size: 30px;}
-
    .re-content{
    display: flex;
    flex-direction: row;
@@ -945,13 +939,12 @@ html, body {
   }
 
   .projects{
-  font-size: 40px;
-  width: 100%;
-  text-align: left;
-  padding-left: 16px;   /* left side stick */
-  margin: 0;            /* IMPORTANT */
-  display: block;       /* IMPORTANT */
-}
+    font-size: 40px;
+    width: 80%;
+    display: flex;
+    flex-direction:row;
+           
+  }
   .fea{
     min-height: 1700px;
   }
@@ -1210,23 +1203,27 @@ html, body {
     padding: 7px 7px;
 }
     
-
+.re-content {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    gap: 0.8rem;
+}
 .orange {
     display: none
 }
 .coment-line{
-  font-size: 11px;
+  font-size: 10px;
   line-height: 0.7rem;
   width: 140%;
 }
 
-.review-head{
-  font-size: 26px;
-  margin-top: 6rem;
-  text-align: center;
-  width: 100%;
-  white-space: nowrap;   
-  margin-left: 0;
+.review-head {
+    font-size: 26px;
+    font-weight: lighter;
+    margin-top: 8rem;
+    /* padding: 0px 100px; */
+    margin-left: 12px;
 }
 
 
@@ -1251,13 +1248,13 @@ html, body {
   .line {
     width: 50%;
     margin: 20px auto;
-    margin-right: 15px;
+    margin-right: 35px;
   }
 
   .client-neeche {
     flex-direction: row;
     margin: 10px auto;
-    margin-left: 44npm rn%;
+    margin-left: 38%;
   }
 
   .client-name {
